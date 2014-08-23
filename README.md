@@ -22,4 +22,12 @@ You should create one R script called run_analysis.R that does the following.
 *Appropriately labels the data set with descriptive variable names. 
 *Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
+Here is my general recommendation
+
+Description of processes: high level description of processes, general data description: readme
+Details of variables: definition, range, type, etc.: code book
+
+class() range() names() 
+str()
+
 
