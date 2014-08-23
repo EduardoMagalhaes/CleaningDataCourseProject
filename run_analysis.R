@@ -121,6 +121,9 @@ DLAMelt <- melt(X_table,id=c("SubjectID","ActivityCode"),measure.vars=colnames(X
 ## Them we´ll use dcast function with SubjectID + ActivityCode as fixed ids and calc the mean of all variables
 TidyDLA <- dcast(DLAMelt, SubjectID + ActivityCode ~ variable, mean)
 
+## Last thing to do is to save the tidy dataframe to the disk, same directory of source data.
 
+write.table(TidyDLA, "../UCIHARDataset/TidyDLA.txt", sep="\t", row.name=FALSE)
 
+## Script Ends
 
