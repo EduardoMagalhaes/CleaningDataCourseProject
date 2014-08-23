@@ -18,15 +18,13 @@ were shown below according with this model:
            *Values*
 
 
-
 TidYDLA
 -------
 
-
-SubjectID       
-    Subject Identification
-        integer
-            1..30
+SubjectID
+  Subject Identification
+    integer
+      1..30
       
 ActivityCode    
     Activity Description
