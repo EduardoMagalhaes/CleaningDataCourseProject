@@ -3,6 +3,9 @@
 ## run_analysis.R
 ##
 ## by Eduardo Magalhaes Barbosa
+##
+## Please, for aditional information see readme.md and CoodBook 
+## at https://github.com/EduardoMagalhaes/CleaningDataCourseProject.git
 
 
 ## This script does the following:
@@ -126,4 +129,4 @@ TidyDLA <- dcast(DLAMelt, SubjectID + ActivityCode ~ variable, mean)
 write.table(TidyDLA, "../UCIHARDataset/TidyDLA.txt", sep="\t", row.name=FALSE)
 
 ## Script Ends
-
+ 

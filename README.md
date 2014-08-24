@@ -82,5 +82,5 @@ Them we´ll use dcast function with SubjectID + ActivityCode as fixed ids and ca
 
 Last thing to do is to save the tidy dataframe to the disk, same directory of source data.
 
-Script Ends
+Script Ends 
 
